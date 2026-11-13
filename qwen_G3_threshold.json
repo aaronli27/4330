@@ -1,0 +1,54 @@
+{
+  "source_results": "D:\\项目\\大作业\\multihop_rag_project\\results\\qwen_G3_calibration.jsonl",
+  "minimum_c0_coverage": 0.3,
+  "selected": {
+    "threshold": 0.0,
+    "c0_coverage": 0.39,
+    "missing_unsafe_rate": 1.0,
+    "c0_answer_f1": 0.3956876456876457
+  },
+  "candidates": [
+    {
+      "threshold": 0.0,
+      "c0_coverage": 0.39,
+      "missing_unsafe_rate": 1.0,
+      "c0_answer_f1": 0.3956876456876457
+    },
+    {
+      "threshold": 0.5,
+      "c0_coverage": 0.39,
+      "missing_unsafe_rate": 1.0,
+      "c0_answer_f1": 0.3956876456876457
+    },
+    {
+      "threshold": 0.7,
+      "c0_coverage": 0.39,
+      "missing_unsafe_rate": 1.0,
+      "c0_answer_f1": 0.3956876456876457
+    },
+    {
+      "threshold": 0.8,
+      "c0_coverage": 0.39,
+      "missing_unsafe_rate": 1.0,
+      "c0_answer_f1": 0.3956876456876457
+    },
+    {
+      "threshold": 0.9,
+      "c0_coverage": 0.39,
+      "missing_unsafe_rate": 1.0,
+      "c0_answer_f1": 0.3956876456876457
+    },
+    {
+      "threshold": 0.95,
+      "c0_coverage": 0.39,
+      "missing_unsafe_rate": 1.0,
+      "c0_answer_f1": 0.3956876456876457
+    },
+    {
+      "threshold": 1.0,
+      "c0_coverage": 0.39,
+      "missing_unsafe_rate": 1.0,
+      "c0_answer_f1": 0.3956876456876457
+    }
+  ]
+}

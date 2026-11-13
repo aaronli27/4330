@@ -1,0 +1,405 @@
+{
+  "seed": 20261019,
+  "dataset": "D:\\项目\\大作业\\datasets\\hotpotqa\\hotpot_dev_distractor_v1.json",
+  "valid_records": 7344,
+  "excluded_records": 61,
+  "summary": {
+    "records": 7344,
+    "unique_ids": 7344,
+    "question_types": {
+      "bridge": 5898,
+      "comparison": 1446
+    },
+    "levels": {
+      "hard": 7344
+    },
+    "context_lengths": {
+      "10": 7344
+    },
+    "supporting_fact_counts": {
+      "2": 4940,
+      "3": 1767,
+      "4": 533,
+      "5": 80,
+      "6": 14,
+      "7": 9,
+      "8": 1
+    }
+  },
+  "splits": {
+    "pilot": 50,
+    "calibration": 100,
+    "standard_test": 100,
+    "unseen_test": 100
+  },
+  "hard_distractor_pool": 800,
+  "hard_distractor_pool_source_split": "calibration",
+  "excluded": [
+    {
+      "record_id": "5abd259d55429924427fcf1a",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5adc65e85542996e68525350",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5ab1d7ac554299449642c7e6",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5ab6369655429953192ad2a1",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5a8cfee555429941ae14df5c",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5adeb95d5542992fa25da827",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5adbe9fa55429944faac23ba",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5a88a1475542997e5c09a646",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5abffd10554299012d1db556",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5adf39295542992d7e9f92df",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5a87954f5542996e4f308856",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5a83ed9b55429933447460b8",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5ab6006a554299110f2199b5",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5a8e08d35542995085b37395",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5a8b036d55429971feec45fe",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5ab4f7fc5542991779162d43",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5a8dfae55542995085b3736b",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5ae473545542995dadf2433d",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5ac2a3c7554299218029dadb",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5ab82bbb5542990e739ec84c",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5a78dc4d55429970f5fffdb6",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5a8aee3d55429950cd6afc01",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5ab69f13554299710c8d1ef3",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5a8a49cd55429930ff3c0d71",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5ab61cf5554299637185c668",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5ade28b15542997c77aded83",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5ab26a4b55429970612095fc",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5ab8f4ee5542991b5579f091",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5ab6dbc15542995eadef00cd",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5a73595055429901807dafd6",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5ac082535542992a796ded2f",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5ae14cf05542990adbacf742",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5ab672165542995eadeeffe0",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5adcd4325542994d58a2f6ed",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5ab938fb554299131ca422ce",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5ade82ba5542992fa25da7a3",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5a7cd66a554299452d57ba90",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5ab67ce2554299710c8d1ead",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5a7af08655429931da12c989",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5ae61bfd5542992663a4f261",
+      "errors": [
+        "support_sentence_index_invalid"
+      ]
+    },
+    {
+      "record_id": "5ae40a2955429970de88d8a3",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5ae0e183554299422ee9953f",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5ab2bc80554299194fa934d7",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5ab3c7df55429969a97a81be",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5a76394c5542994ccc918725",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5ac3ac8255429939154138ad",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5a7a5aea5542996c55b2dd6f",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5add64065542995b365fab25",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5ac2ed41554299218029db96",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5abc7bc45542993a06baf8ef",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5ab680d15542995eadef0011",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5ac274fc55429963665199c1",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5ae6529a55429929b0807b32",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5ae4bcfc55429913cc2044eb",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5a84be845542991dd0999dcf",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5ab6d04c554299710c8d1f70",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5a86458b5542991e771815ec",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5abae1055542996cc5e49ec9",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5a836ce55542993344746012",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5abbf8bc5542993f40c73c35",
+      "errors": [
+        "context_length_not_10"
+      ]
+    },
+    {
+      "record_id": "5ade3e69554299728e26c68d",
+      "errors": [
+        "context_length_not_10"
+      ]
+    }
+  ]
+}

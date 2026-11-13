@@ -1,0 +1,5 @@
+transformers>=4.45
+accelerate>=0.34
+sentencepiece>=0.2
+bitsandbytes>=0.50
+modelscope>=1.40

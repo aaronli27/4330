@@ -1,0 +1,21 @@
+{
+  "seed": 20261019,
+  "top_k": 5,
+  "max_questions_per_split": {
+    "pilot": 50,
+    "calibration": 100,
+    "standard_test": 100,
+    "unseen_test": 100
+  },
+  "model": {
+    "name": "Qwen/Qwen2.5-1.5B-Instruct",
+    "temperature": 0.0,
+    "load_in_4bit": true
+  },
+  "budget": {
+    "max_total_tokens": 4096,
+    "max_retrieval_rounds": 2,
+    "gate_threshold": 0.5
+  }
+}
+
